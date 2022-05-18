@@ -1,0 +1,9 @@
+@media (min-width: 481px) {
+    .burger-menu {
+        display: none;
+    }
+    .nav-bar {
+        display: block;
+    }
+
+}
