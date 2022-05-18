@@ -1,0 +1,13 @@
+@media (min-width: 576px){  
+    .product {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    .footer-section{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+

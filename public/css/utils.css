@@ -1,3 +1,5 @@
+/*css util para todo*/
+
 /*Width*/
 .w-50 {
     width: 50%;
@@ -19,6 +21,8 @@
 .m-4 {
     margin: 4px;
 }
+
+/*Margin left & right (x-axis)*/
 .mx-4 {
     margin-left: 4px;
     margin-right: 4px;
@@ -27,6 +31,8 @@
     margin-left: 8px;
     margin-right: 8px;
 }
+
+/*Margin top*/
 .mt-8 {
     margin-top: 8px;
 }
@@ -36,26 +42,37 @@
 .mt-134{
     margin-top: 134px;
 }
+
+/*Margin bottom*/
 .mb-0 {
     margin-bottom: 0;
 }
 .mb-8 {
-    margin-bottom: 8px;
+    margin-bottom: 5px;
 }
 .mb-10{
     margin-bottom: 10px;
 }
+
+/*Margin right*/
 .mr-8 {
     margin-right: 8px;
 }
 
 /* Border */
+.b-15{
+    border: 15px;
+}
 .b-1 {
     border-style: solid;
     border-width: 1px;
+    color: #ebebeb;
 }
 .b-circle {
     border-radius: 50%;
+}
+.br-10 {
+    border-radius: 10px;
 }
 .b-top-1 {
     border-top-width: 1px;
@@ -100,6 +117,7 @@
     flex-wrap: wrap;
     margin-bottom: 24px;
 }
+
 .form-field > .form-input {
     background-color: white;
     border: none;
@@ -138,7 +156,7 @@
 .form-field > .input-with-button > .input-button {
     padding: 4px;
     border: none;
-    margin-left: 2px;
+    margin: 1px;
     background-color: white;
 }
 .form-field > .error-msg {
@@ -167,27 +185,39 @@
 .p-relative {
     position: relative;
 } 
+
 /* Flexbox */
-.fx {
+
+.flex {
     display: flex;
 }
+
 .fx-wrap {
     flex-wrap: wrap;
 }
+
 .fx-align-center {
     align-items: center;
 }
+
 .fx-grow-100 {
     flex-grow: 1;
 }
+
 .fx-grow-70 {
     flex-grow: 0.7;
 }
+
 .fx-grow-30 {
     flex-grow: 0.3;
 }
+
 .fx-space-between {
     justify-content: space-between;
+}
+
+.fx-center{
+    justify-content: center;
 }
   
 /* Tablets */
@@ -211,16 +241,10 @@
     .w-tablet-33 {
       width: 33%;
     }
-        .footer-art{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-    }
 }
   
 /* Desktop */
-  @media (min-width: 992px) {
+  @media (min-width: 769px) {
     .w-desktop-25 {
       width: 25%;
     }
@@ -235,20 +259,5 @@
 
     .w-desktop-33 {
       width: 33%;
-    }
-    article.product:hover{
-        box-shadow: 10px 10px 10px #666;
-        transition-property: box-shadow;
-        transition-duration: 1s;    
-    }
-    .main-footer{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-    }
-    .footer.font-light-blue:hover{
-        color: #39b54a;  
-        transition-property: color; 
     }
 }

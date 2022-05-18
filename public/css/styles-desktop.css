@@ -1,0 +1,41 @@
+@media (min-width: 769px) {
+  
+  .product-title{
+      display: none;
+      transition: all 5s;
+  }
+  
+  .product:hover .product-title{
+      display: block;
+      transition: all 5s;
+  }
+  
+  .product:hover{
+      box-shadow: 10px 10px 10px #666;
+      transition-property: box-shadow;
+      transition-duration: 1;
+  }
+  
+  .rotation:hover{
+      transform: rotateZ(-90deg);
+      transition: 1s;
+  }
+
+  .footer-section{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+  }
+  
+  .footer-icon:hover{
+        color: #39b54a;
+        box-shadow: 0px 0px 24px 22px rgba(235,235,235,1);
+        transition: all 0.5s; 
+  }
+  
+  .footer-icon:hover{
+        transition-property: color;
+        transition-duration: 0.5s;
+  }  
+}
