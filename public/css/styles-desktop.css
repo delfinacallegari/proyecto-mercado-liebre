@@ -1,45 +1,47 @@
 @media (min-width: 769px) {
-    /*main*/
-    .product-title{
-      display: none;
-    }
-  
+  /*main*/
+  .product-title{
+    display: none;
+  }
+    
   .product:hover .product-title{
-      display: block;
-      transition: all 2s;
-    }
-  
+    display: block;
+    transition: all 2s;
+  }
+    
   .product:hover{
-      box-shadow: 10px 10px 10px #666;
-      transition: all 500ms ease;
-    }
+    box-shadow: 10px 10px 10px #666;
+    transition: all 500ms ease;
+  }
   
   .rotation:hover{
-      transform: rotateZ(-90deg);
-      transition: 1s;
+    transform: rotateZ(-90deg);
+    transition: 1s;
   }
 
   /*footer*/
   .footer-section{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-    }
-  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+    
   .footer-icon:hover{
-        color: #39b54a;
-        box-shadow: 0px 0px 24px 22px rgba(235,235,235,1);
-        transition: all 0.5s; 
-    }
-   
-  .footer-icon:hover{
-        transition-property: color;
-        transition-duration: 0.5s;
-    }  
+    color: #39b54a;
+    font-size: 2.5em;
+    box-shadow: 0px 0px 24px 22px rgba(235,235,235,1);
+    transition: all 0.5s; 
+  }
+    
+  .social-icon:hover {
+    color: #0022AA;
+    font-size: 2.25em;
+    transition: all 0.5s; 
+  }
 
-    /*Register*/
-    .login-button:hover .bg-light-blue{
-        background-color: #0022AA;
-    }
+  /*Register*/
+  .login-button:hover .bg-light-blue{
+    background-color: #0022AA;
+  }
 }

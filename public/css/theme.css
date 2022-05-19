@@ -129,6 +129,7 @@ body {
 
 /* Footer icons */
 .footer-icon{
+    font-size: 2em;
     color: #1259c3;
     box-shadow: 0;
 }
@@ -136,6 +137,7 @@ body {
 .social-icon {
     text-align: center;
     color: #1259c3;
+    font-size: 2em;
     box-shadow: 0;
     font-size: 16px;
     padding: 8px;
