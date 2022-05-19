@@ -29,7 +29,7 @@
         <img src="/images/logo-mercado-liebre.svg" alt="Mercado Liebre" href="views\home.html" />
         </h1>
         
-        <form class="flex p-8 w-50 w-desktop-33">
+        <form class="flex p-8 w-50 w-desktop-33 m-center">
         <div class="form-field w-100 mb-0">
           <div class="input-with-button">
             <input class="form-input" type="text" name="search" placeholder="Buscar productos, marcas y más" />
@@ -72,14 +72,13 @@
         <form class="mt-16" action="resultado.html" method="GET">
             
             <div class="form-field">
-                <label class="accessibility-label" for="userprofile">Usuario:</label>
-                <input class="form-input" type="text" name="userprofile" id="userprofile" placeholder="Nombre de usuario">
-                <span class="error-msg font-small">Este campo no puede estar vacío</span>
+                <label for="userprofile">Usuario:</label>
+                <input class="form-input" type="text" name="userprofile" id="userprofile" placeholder="Nombre de usuario" required="">
             </div>
             
             <div class="form-field">
-                <label class="accessibility-label" for="password">Constraseña:</label>
-                <input class="form-input" type="password" name="password" id="password" placeholder="Contraseña">
+                <label for="password">Constraseña:</label>
+                <input class="form-input" type="password" name="password" id="password" placeholder="Contraseña" required="">
             </div>
             
             <div class="login-button">
