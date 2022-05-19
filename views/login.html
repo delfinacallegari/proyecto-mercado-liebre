@@ -67,77 +67,14 @@
  
     </header>
 
-    <main class="w-tablet-70 m-center">
-    
-        <form class="mt-200 p-8 w-90" action="resultado.html" method="GET">
+    <main class="mt-200 p-8 w-90 w-tablet-70 m-center">
         
-
-            <div class="form-field error">
-                <label class="accessibility-label" for="fullname">Nombre y apellido:</label>
-                <input class="form-input" type="text" name="fullname" id="fullname" placeholder="Nombre y appelido">
-                <span class="error-msg font-small">Este campo no puede estar vacío</span>
-            </div>
+        <form class="mt-16" action="resultado.html" method="GET">
             
             <div class="form-field">
                 <label class="accessibility-label" for="userprofile">Usuario:</label>
                 <input class="form-input" type="text" name="userprofile" id="userprofile" placeholder="Nombre de usuario">
-            </div>
-            
-            <div class="form-field">
-                <label class="input-label" for="birthdate">Fecha de nacimiento:</label>
-                <input class="form-input" type="date" name="birthdate" id="birthdate" placeholder="Fecha de nacimiento">
-            </div>
-            
-            <div class="form-field">
-                <label class="accessibility-label" for="address">Domicilio:</label>
-                <input class="form-input" type="text" name="address" id="address" placeholder="Domicilio">
-            </div>
-
-            <div class="form-field">
-                <label class="input-label" for="user-type">Perfil de usuario:</label>
-                    <div class="input-option w-50">
-                        <input type="radio" name="userprofile-buyer" id="userprofile-buyer" value="buyer"/>
-                        <label for="userprofile-buyer">Comprador</label><br> 
-                    </div>
-                    <div class="input-option w-50">
-                        <input type="radio" name="userprofile-seller" id="userprofile-seller" value="userprofile-seller">
-                        <label for="userprofile-seller">Vendedor</label><br>
-                    </div>
-            </div>
-            
-            <div class="form-field error">
-                <label for="address" class="input-label">Categoría de interés</label>
-                <div class="input-option w-100 pl-8">
-                    <input type="checkbox" id="interests-electro" name="interests" value="electro">
-                    <label for="interests-electro"> Electro </label><br>
-                </div>
-                
-                <div class="input-option w-100 pl-8">
-                    <input type="checkbox" id="fashion" name="interests" value="fashion">
-                    <label for="interests-fashion"> Moda </label><br>
-                </div>
-                
-                <div class="input-option w-100 pl-8">
-                    <input type="checkbox" id="home" name="interests" value="home">
-                    <label for="interests-home"> Hogar </label><br>
-                </div>
-                
-                <div class="input-option w-100 pl-8">
-                    <input type="checkbox" id="interests-toys" name="interests" value="toys">
-                    <label for="interests-toys"> Juguetería </label><br>
-                </div>
-                
-                <div class="input-option w-100 pl-8">
-                    <input type="checkbox" id="interests-healthylife name=" name="interests" value="vida-sana">
-                    <label for="interests-healthylife"> Vida sana </label><br>
-                </div>
-           
-                <span class="error-msg font-small">Debes seleccionar al menos una opción</span>
-            </div>
-            
-            <div class="form-field">
-                <label class="input-label" for="avatar">Foto de usuario:</label>
-                <input class="form-field" type="file" name="avatar" id="avatar" accept=".jpg">
+                <span class="error-msg font-small">Este campo no puede estar vacío</span>
             </div>
             
             <div class="form-field">
@@ -145,16 +82,12 @@
                 <input class="form-input" type="password" name="password" id="password" placeholder="Contraseña">
             </div>
             
-            <div class="form-field">
-                <label class="accessibility-label" for="confirm-password">Confirmar contraseña:</label>
-                <input class="form-input" type="password" name="confirm-password" id="confirm-password" placeholder="Confirmar contraseña">
+            <div class="login-button">
+            <button class="button font-white bg-light-blue w-100" type="submit" href="/home.html">Enviar</button>
             </div>
-            
-            <button class="button font-white bg-light-blue w-100" type="submit">Enviar</button>
-            <button class="button font-white bg-dark-grey w-100" type="reset" value="borrar">Borrar</button>
         
         </form>
-    
+
     </main>
 
     <footer class="p-8 m-center bg-white">
@@ -207,6 +140,6 @@
         </div>
 
     </footer>
-  
+
 </body>
 </html>

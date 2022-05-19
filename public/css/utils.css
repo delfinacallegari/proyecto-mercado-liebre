@@ -39,8 +39,14 @@
 .mt-16 {
     margin-top: 16px;
 }
-.mt-134{
-    margin-top: 134px;
+.mt-100{
+    margin-top: 100px;
+}
+.mt-200{
+    margin-top: 200px;
+}
+.mt-155{
+    margin-top: 155px;
 }
 
 /*Margin bottom*/
@@ -48,7 +54,7 @@
     margin-bottom: 0;
 }
 .mb-8 {
-    margin-bottom: 5px;
+    margin-bottom: 8px;
 }
 .mb-10{
     margin-bottom: 10px;
@@ -78,6 +84,7 @@
     border-top-width: 1px;
     border-top-style: solid;
 }
+
 .b-none {
     border: none;
 }
@@ -100,6 +107,9 @@
 .p-4 {
     padding: 4px;
 }
+.pt-15{
+    padding-top: 15px;
+}
 
 /* em */
 .em-2{
@@ -111,7 +121,54 @@
     text-align: center;
 }
 
-/* Form items */
+.hide {
+    display: none;
+}
+
+/* Flexbox */
+
+.flex {
+    display: flex;
+}
+
+.fx-wrap {
+    flex-wrap: wrap;
+}
+
+.fx-align-center {
+    align-items: center;
+}
+
+.fx-grow-100 {
+    flex-grow: 1;
+}
+
+.fx-grow-70 {
+    flex-grow: 0.7;  /*el % tiene que ocupar el 70%*/
+}
+
+.fx-grow-30 {
+    flex-grow: 0.3;
+}
+
+.fx-space-between {
+    justify-content: space-between;
+}
+
+.fx-space-left{
+    justify-content: left;
+}
+
+.fx-center{
+    justify-content: center;
+}
+
+/* Position */
+.p-relative{
+    position: relative;
+}
+
+/* Forms */
 .form-field {
     display: flex;
     flex-wrap: wrap;
@@ -125,11 +182,12 @@
     border-radius: 5px;
     padding: 8px;
 }
+
 .form-field.error > .form-input {
-    border: 1px solid red;
+    border: 1px underline red;
 }
 .form-field.error > .input-option {
-      border: 1px solid red;
+    text-decoration: 2px underline red;   
 }
 .form-field > .input-label {
     display: block;
@@ -163,7 +221,7 @@
     display: block;
     padding-top: 4px;
     padding-left: 8px;
-    color: red;
+    color: red !important;
     width: 100%;
 }
 .button {
@@ -172,54 +230,8 @@
     border: none;
     margin-bottom: 24px;
 }
-  
 
-.hide {
-    display: none;
-}
 
-.b-b{
-    box-sizing: border-box;
-}
-  
-.p-relative {
-    position: relative;
-} 
-
-/* Flexbox */
-
-.flex {
-    display: flex;
-}
-
-.fx-wrap {
-    flex-wrap: wrap;
-}
-
-.fx-align-center {
-    align-items: center;
-}
-
-.fx-grow-100 {
-    flex-grow: 1;
-}
-
-.fx-grow-70 {
-    flex-grow: 0.7;
-}
-
-.fx-grow-30 {
-    flex-grow: 0.3;
-}
-
-.fx-space-between {
-    justify-content: space-between;
-}
-
-.fx-center{
-    justify-content: center;
-}
-  
 /* Tablets */
 @media (min-width: 576px){
     .tablet-hide {

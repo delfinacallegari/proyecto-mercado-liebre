@@ -78,12 +78,13 @@ body {
     font-size: 12px ;
 }
 
-/* Header CORREGIR*/
+/* Header */
+
 .main-header{
-    width: 100%;
     position: fixed;
-    top: 0;
-    z-index: 10;
+    width: 100%;
+    z-index: 1;
+    top: 0%;
 }
 
 /* Nav */
@@ -126,13 +127,16 @@ body {
     top: -15px;
 }
 
-/* Product */
-
-
-
-/* Footer icon */
+/* Footer icons */
 .footer-icon{
     color: #1259c3;
     box-shadow: 0;
 }
 
+.social-icon {
+    text-align: center;
+    color: #1259c3;
+    box-shadow: 0;
+    font-size: 16px;
+    padding: 8px;
+}
