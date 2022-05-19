@@ -182,13 +182,13 @@
     border-radius: 5px;
     padding: 8px;
 }
-
+/*
 .form-field.error > .form-input {
     border: 1px underline red;
 }
 .form-field.error > .input-option {
     text-decoration: 2px underline red;   
-}
+}*/
 .form-field > .input-label {
     display: block;
     margin-bottom: 4px;
