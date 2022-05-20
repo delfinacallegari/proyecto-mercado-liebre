@@ -3,10 +3,10 @@ const path = require("path");
 
 const app = express();
 
-const port = process.env.port || 2222;
+const PORT = process.env.PORT || 2222;
 
-app.listen(port, () => {
-    console.log("El servidor está activado en el puerto "+ port)          
+app.listen(PORT, () => {
+    console.log("El servidor está activado en el puerto "+ PORT)          
 });                                
 
 app.use(express.static(path.join(__dirname, "public")));
