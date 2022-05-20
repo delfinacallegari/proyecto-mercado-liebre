@@ -3,7 +3,7 @@ const path = require("path");
 
 const app = express();
 
-const port = 2222
+const port = process.env.port || 2222;
 
 app.listen(port, () => {
     console.log("El servidor está activado en el puerto "+ port)          
