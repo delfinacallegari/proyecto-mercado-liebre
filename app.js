@@ -3,7 +3,7 @@ const path = require("path");
 
 const app = express();
 
-const PORT = process.env.PORT || 2222;
+const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, () => {
     console.log("El servidor está activado en el puerto "+ PORT)          
@@ -11,7 +11,6 @@ app.listen(PORT, () => {
 
 app.use(express.static(path.join(__dirname, "public")));
 
-// camino | path | ruta : es lo que vos escribís en el navegador
 app.get("/", (req, res) => {
     res.sendFile(path.join(__dirname, "./views/home.html"))
 })
